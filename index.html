@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/icons/bus.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Travel</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#"
+          ><img src="./img/logo/logo.svg" alt="Logo" class="logo"
+        /></a>
+
+        <nav class="navbar">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active__link">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Экскурсии</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Личный Кабинет</a>
+            </li>
+          </ul>
+
+          <div class="burger">
+            <span class="burger__item"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="travel">
+        <div class="travel__container container">
+          <div class="travel__block">
+            <h1 class="travel__title">ПУТЕШЕСТВУЙ PERO TRAVEL</h1>
+            <button class="travel__button button">
+              К экскурсиям <img src="./img/icons/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <div class="container popular__container">
+          <div class="popular__top">
+            <h2>Популярные экскурсии</h2>
+            <a href="#"><h5>Смотреть все</h5></a>
+          </div>
+          <div class="popular__cards">
+            <div class="popular__card card">
+              <h3>Автобусный тур</h3>
+              <h4>Обзорная по Сочи (из Адлера)</h4>
+              <div class="card__info">
+                <div class="card__time">
+                  <img
+                    src="./img/icons/clock.svg"
+                    alt="clock"
+                    width="12px"
+                    height="12px"
+                  />
+                  <p>6 часов</p>
+                </div>
+                <div class="card__price">
+                  <img
+                    src="./img/icons/coins.svg"
+                    alt="coins"
+                    width="15px"
+                    height="15px"
+                  />
+                  <p>618 ₽</p>
+                </div>
+              </div>
+              <!---card info-->
+              <p class="card__description">
+                Приглашаем вас на экскурсию<br />
+                "Обзорная по Большому Сочи":<br />
+                Экскурсия начнется с подъёма на гору Большой<br />
+                Ахун - это высшая точка (665 метров) на<br />
+                побережьи Сочи. На вершине горы Большой Ахун есть смотровая
+                башня, построенная в 1935-36 годах по проекту архитектора С. И.
+                Воробьева...
+              </p>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!--CARD-->
+
+            <div class="popular__card card">
+              <h3>Конный тур</h3>
+              <h4>Конные прогулки</h4>
+              <div class="card__info">
+                <div class="card__time">
+                  <img
+                    src="./img/icons/clock.svg"
+                    alt="clock"
+                    width="12px"
+                    height="12px"
+                  />
+                  <p>1,5 часа</p>
+                </div>
+                <div class="card__price">
+                  <img
+                    src="./img/icons/coins.svg"
+                    alt="coins"
+                    width="15px"
+                    height="15px"
+                  />
+                  <p>1 809 ₽</p>
+                </div>
+              </div>
+              <!---card info-->
+              <p class="card__description">
+                Конные прогулки проходят в Лазурной долине. С долины открывается
+                красивый вид на море, горы<br />
+                и лес. На всем пути следования экскурсии вас<br />
+                будут сопровождать опытные инструктора.<br />
+                Катание на лошадях или иппотерапия очень<br />
+                полезна для детей и взрослых...
+              </p>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!--CARD-->
+            <div class="popular__card card">
+              <h3>Квадротур</h3>
+              <h4>Пасть дракона</h4>
+              <div class="card__info">
+                <div class="card__time">
+                  <img
+                    src="./img/icons/clock.svg"
+                    alt="clock"
+                    width="12px"
+                    height="12px"
+                  />
+                  <p>2,5 часа</p>
+                </div>
+                <div class="card__price">
+                  <img
+                    src="./img/icons/coins.svg"
+                    alt="coins"
+                    width="15px"
+                    height="15px"
+                  />
+                  <p>3 515 ₽</p>
+                </div>
+              </div>
+              <!---card info-->
+              <p class="card__description">
+                Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль
+                белых скал и самшитовый лес к водопаду Глубокий Яр или "Пасть
+                Дракона" (экскурсионное название).<br />
+                Высота водопада 41,5 метр - это один из самых высоких водопадов
+                Большого Сочи...
+              </p>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!--CARD-->
+          </div>
+        </div>
+      </section>
+
+      <section class="us">
+        <div class="us__container container">
+          <div class="us__block">
+            <h3 class="us__title">О нас</h3>
+            <h4 class="us__subtitle us__subtitle-first">
+              PeroTravel - Первый онлайн-сервис по бронированию экскурсий без
+              очередей и операторов.<br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </h4>
+            <h4 class="us__subtitle us__subtitle-second">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </h4>
+          </div>
+        </div>
+      </section>
+      <section class="kinds">
+        <div class="kinds__container container">
+          <h2>Виды экскурсий</h2>
+          <div class="kinds__grid">
+            <div class="kinds__block block">
+              <div class="block__image">
+                <img src="./img/icons/bus.png" alt="bus" />
+              </div>
+              <div class="block__text">
+                <h2>Автобусный тур</h2>
+                <h4>
+                  Один из самых насыщенных впечатлениями, доступных по цене и
+                  популярных видов отдыха. Во время одной поездки можно
+                  посмотреть достопримечательности сразу нескольких городов,
+                  причем обойдется это едва ли не в<br />
+                  разы дешевле классического экскурсионного тура с ночевками в
+                  отелях.
+                </h4>
+              </div>
+            </div>
+
+            <div class="kinds__block block">
+              <div class="block__image">
+                <img src="./img/icons/jeep.png" alt="jeep" />
+              </div>
+              <div class="block__text">
+                <h2>Джиппинг</h2>
+                <h4>
+                  Это путешествие на автомобилях высокой проходимости с
+                  преодолением естественных препятствий, это экстремальный вид
+                  спорта и отдыха, представляющий собой прохождение
+                  туристического маршрута по бездорожью на автомобилях.
+                </h4>
+              </div>
+            </div>
+            <div class="kinds__block block">
+              <div class="block__image">
+                <img src="./img/icons/yacht.png" alt="yacht" />
+              </div>
+              <div class="block__text">
+                <h2>Яхтинг</h2>
+                <h4>
+                  Это то же, что круиз на лайнере или прогулка на пароме, только
+                  на яхте больше свободы, размеры судна в разы меньше, нет
+                  назойливой команды, можно самостоятельно почувствовать себя
+                  капитаном, постоять за штурвалом. Именно здесь вы почувствуете
+                  величайшие просторы Черногор моря.
+                </h4>
+              </div>
+            </div>
+            <div class="kinds__block block">
+              <div class="block__image">
+                <img src="./img/icons/canyon.png" alt="canyon" />
+              </div>
+              <div class="block__text">
+                <h2>Каньонинг</h2>
+                <h4>
+                  Это экстремально-спортивный вид отдыха, который заключается в
+                  преодолении каньонов (обводненных или нет) при помощи
+                  альпинистского и иного снаряжения, а иногда и вброд, но без
+                  лодок или иных плавсредств.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!--GRID-->
+          <div class="kinds__bottom">
+            <p>
+              Выбирайте на нашем сайте экскурсию, которая подходит именно вам и
+              записывайтесь онлайн без очередей, просто и быстро!
+            </p>
+            <button class="button kinds__button">
+              К экскурсиям <img src="./img/icons/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="photos">
+        <div class="photos__grid">
+          <div class="photos__item photos__item1"><img src="./img/bottom/1.png" alt="1"></div>
+          <div class="photos__item photos__item2"><img src="./img/bottom/2.png" alt="2"></div>
+          <div class="photos__item photos__item3"><img src="./img/bottom/3.png" alt="3"></div>
+          <div class="photos__item photos__item4"><img src="./img/bottom/4.png" alt="4"></div>
+          <div class="photos__item photos__item5"><img src="./img/bottom/5.png" alt="5"></div>
+          <div class="photos__item photos__item6"><img src="./img/bottom/6.png" alt="6"></div>
+          <div class="photos__item photos__item7"><img src="./img/bottom/7.png" alt="7"></div>
+          <div class="photos__item photos__item8"><img src="./img/bottom/8.png" alt="8"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
